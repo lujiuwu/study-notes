@@ -1,0 +1,21 @@
+{
+  "promptDelete": false,
+  "trashOption": "none",
+  "newLinkFormat": "absolute",
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./noteImg",
+  "livePreview": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "showLineNumber": false,
+  "showFrontmatter": true
+}

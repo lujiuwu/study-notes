@@ -1,0 +1,12 @@
+{
+  "accentColor": "#67d0c4",
+  "theme": "obsidian",
+  "cssTheme": "Obsidian Nord",
+  "enabledCssSnippets": [],
+  "interfaceFontFamily": "华文新魏,华文楷体,Showcard Gothic",
+  "monospaceFontFamily": "Cascadia Code",
+  "textFontFamily": "微软雅黑",
+  "baseFontSize": 18,
+  "translucency": false,
+  "nativeMenus": false
+}
