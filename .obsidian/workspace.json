@@ -8,45 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3150bb95374d26b4",
+            "id": "0b3ac76e11ff0754",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS高级程序设计 - coderwhy.md",
+                "file": "计算机基础知识/计算机网络与安全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS高级程序设计 - coderwhy"
+              "title": "计算机网络与安全"
             }
           },
           {
-            "id": "148c7a086f807162",
+            "id": "7d3e0907e46f4811",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS高级程序设计 - coderwhy.md",
+                "file": "TS/TS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS高级程序设计 - coderwhy"
+              "title": "TS"
             }
           },
           {
-            "id": "7848d442cd7a3a14",
+            "id": "f51abfd4e1ed5423",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-13 15.35.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-13 15.35.49.excalidraw"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "同源",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -139,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS高级程序设计 - coderwhy.md",
+                "file": "JS/掘金2 -- JS基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "JS高级程序设计 - coderwhy 的反向链接列表"
+              "title": "掘金2 -- JS基础知识 的反向链接列表"
             }
           },
           {
@@ -227,8 +229,7 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -251,54 +252,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7848d442cd7a3a14",
+  "active": "7d3e0907e46f4811",
   "lastOpenFiles": [
+    "简历/简历分析.md",
+    "简历/陈岩-18883101158.pdf",
+    "计算机基础知识/计算机网络与安全.md",
+    "Excalidraw/Drawing 2025-05-13 15.35.49.excalidraw.md",
+    "计算机基础知识/进程状态.jpg",
+    "计算机基础知识/Web Worker.md",
+    "计算机基础知识/性能优化.md",
+    "浏览器/知识点总结.md",
+    "JS/掘金.md",
+    "计算机基础知识/performace.jpg",
+    "计算机基础知识/设计模式.md",
+    "计算机基础知识/浏览器原理.md",
+    "JS/沙箱 sandbox.md",
+    "VUE/vue.md",
+    "JS/其他.md",
+    "浏览器/浏览器API.md",
+    "JS/JS高级程序设计 - coderwhy.md",
     "JS/掘金2 -- JS基础知识.md",
-    "study-notes/面经/美团一面 base北京.md",
-    "study-notes/面经/美团一面 base上海.md",
-    "study-notes/面经/百度一面.md",
-    "study-notes/面经/携程一面.md",
-    "study-notes/面经/字节一面.md",
-    "study-notes/面经/小红书一面.md",
+    "JS/手写Promise.md",
+    "VUE/nextTick.md",
+    "浏览器/前端渲染技术.md",
+    "VUE/vue-router.md",
+    "VUE/vue css scoped.md",
+    "VUE/computed与watch.md",
+    "VUE/canvas.md",
+    "VUE/虚拟DOM.md",
+    "CSS/盒模型.md",
+    "CSS/层叠，优先级与继承.md",
+    "计算机基础知识/TCP三次握手.jpg",
+    "计算机基础知识/四次挥手.png",
+    "工程化",
+    "计算机基础知识/四次挥手.png.crdownload",
+    "Node",
+    "未命名 1",
+    "TS",
+    "小程序",
     "study-notes/面经",
     "study-notes/浏览器",
     "study-notes/简历/陈岩_前端开发实习生.docx",
-    "study-notes/简历/陈岩-18883101158.pdf",
-    "study-notes/简历",
-    "study-notes/计算机基础知识/计算机基础知识 杂.md",
-    "study-notes/计算机基础知识",
     "study-notes/wallpapers/3.jpg",
     "study-notes/wallpapers/2.jpg",
     "study-notes/wallpapers/1.jpeg",
-    "study-notes/wallpapers",
     "study-notes/VUE/images/strokeStyle.jpg",
     "study-notes/VUE/images/strokeRect.jpg",
     "study-notes/VUE/images/smile.jpg",
-    "study-notes/VUE/images/path.jpg",
-    "study-notes/VUE/images/lineJoin.jpg",
-    "study-notes/VUE/images/lineCap.jpg",
-    "study-notes/VUE/images/fillStyle.jpg",
-    "study-notes/VUE/vue.md",
-    "study-notes/VUE/images",
-    "study-notes/VUE/canvas.md",
-    "study-notes/VUE",
-    "study-notes/test_codes/响应式.js",
-    "study-notes/ljw_study-noto/git/git操作.md",
-    "study-notes/ljw_study-noto/README.md",
-    "study-notes/JS/红宝书/第四章 变量 作用域与内存.md",
-    "study-notes/JS/红宝书/第十章 函数.md",
-    "study-notes/JS/红宝书/第十四章 DOM.md",
-    "study-notes/JS/红宝书/第十八章 动画与canvas图形.md",
-    "study-notes/JS/红宝书/第十六章 DOM2和DOM3.md",
-    "study-notes/JS/红宝书/第十五章 DOM扩展.md",
-    "study-notes/JS/红宝书/第十二章 BOM.md",
-    "study-notes/JS/红宝书/第十七章 事件.md",
-    "study-notes/JS/红宝书/第十一章 Promise与异步函数.md",
-    "study-notes/JS/红宝书/第六章 集合引用类型.md",
-    "study-notes/JS/红宝书/第八章 对象，类和面向对象编程.md",
-    "study-notes/JS/红宝书/第五章 基本引用类型.md",
-    "study-notes/JS/红宝书/第二章 HTML中的JavaScript.md",
-    "study-notes/JS/红宝书/第二十五章 客户端存储.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
