@@ -1,4 +1,4 @@
-> JS是一门高级的编程语言\解释性语言（接近人类的思维方式）
+9> JS是一门高级的编程语言\解释性语言（接近人类的思维方式）
 > 
 > `计算机语言：机器语言 -> 汇编语言 -> 高级语言`
 > 
@@ -2574,7 +2574,7 @@ function(m,n,...args){
 
 ### 箭头函数
 
-* 箭头函数是没有显式原型的prototype ( undefined )
+* 箭头函数没有显式原型的prototype ( undefined )
 
 
 ## 展开语法 ( Spread syntax )
@@ -3134,7 +3134,6 @@ console.log(globalThis) // 在不同的环境指向不一样
 const finalRegistry = new FinalizationRegistry((value)=>{
   // 当注册在该对象中的对象被回收时 执行内部代码
   console.log("finalRegistry",value)
-})
 
 let obj = {name:"name"}
 // 注册 -- 注册时同时可以传值
@@ -3960,7 +3959,7 @@ var moudleA = (function(){
 ### CommonJS与Node的关系
 
 > 我们需要知道CommonJS是一个规范，最初提出来就是在`浏览器以外的地方使用`
-> 最初命名为ServerJS 后来为了体现它的广泛性，修改为**CommonJS**，也简称**CJS**
+> 最初命名为ServerJS，后来为了体现它的广泛性修改为**CommonJS**，也简称**CJS**
 
 * Node是CommonJS在服务端一个具有代表性的实现
 * Browserofy是CommonJS在浏览器的一种实现

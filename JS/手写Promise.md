@@ -862,6 +862,12 @@ static any(promises) {
 }
 ```
 
+resolve
+reject
+all 全部成功 / 一个失败
+allSettled -- 全部结果 {status,value}
+any -- 一个失败/全部成功
+race -- 第一个完成
 
 
 
@@ -869,3 +875,20 @@ static any(promises) {
 
 
 
+```js
+static any(promises){
+  return new Promise((resolve,reject)=>{
+    const values = []
+    promises.forEach(promise=>{
+      promise.then(res=>{
+         values
+      }
+
+      
+      ,error)
+    
+    })
+  
+  })
+}
+```

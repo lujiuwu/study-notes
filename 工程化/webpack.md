@@ -5,6 +5,19 @@
 
 * webpack 是前端的一个项目构建工具，它是基于 Node.js 开发出来的一个前端工具
 * 它可以处理 js 之间互相依赖的关系和 js 的兼容问题
+  
+Webpack 的核心是通过**模块解析**、**loader 转换**和**插件优化**，将复杂的依赖关系转换为优化后的静态资源
+
+
+**理解**
+* webpack是一个模块打包工具
+* 在项目中使用webpack.config.js文件进行配置
+* 主要可分为四个模块：entry入口文件，依据该文件分析模块依赖，在vue项目中默认是main.js
+* 接着是output输出配置
+* loader和plugins；
+     * 因为webpack默认只会处理Js文件，而对于其他类型文件，例如图片视频等静态资源，我们则需要下载对应的loader以进行处理
+     * plugins插件用于在webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或做你想要做的事情
+
 
 **bundle**
 bundles 包含了早已经过加载和编译的`最终源文件版本`
@@ -224,4 +237,124 @@ webpack5 `模块联邦(Module Federation)` 使 JavaScript 应用，得以从另�
 
 模块联邦利用 webpack5 内置的`ModuleFederationPlugin`插件，实现了项目中间相互引用的按需热插拔
 
+## JS文件哈希字符串
+
+> 文件名哈希与内容绑定
+> 通过 Webpack 配置`contenthash`哈希命名，确保第三方库文件内容不变时，文件名始终一致，浏览器可长期缓存
+
+**通过哈希值可以明确知道部署的是哪个版本的代码：**
+- 开发环境：使用不带哈希的文件名便于调试
+- 生产环境：使用带哈希的文件名确保缓存有效性
+
+**并行加载**
+不同的哈希文件名允许浏览器并行加载多个资源，提高加载速度
+
+**长缓存策略**
+对于不会频繁变化的第三方库，可以设置更长的缓存时间
+
+### 长缓存政策
+
+* 长缓存策略是指通过 HTTP 响应头（如`Cache-Control`）将静态资源的缓存时间设置为较长周期（如 1 年）
+* 使浏览器在首次加载后长期复用缓存，减少重复请求
+  
+* 通过 Webpack 配置`contenthash`哈希命名，确保第三方库文件内容不变时，文件名始终一致，浏览器可长期缓存
+
+第三方库（如 Vue、Element UI、axios）的版本迭代周期较长，且项目中一旦确定版本，通常不会频繁修改
+
+**优势**
+1. **减少服务器压力**：用户首次加载后，后续请求直接读取本地缓存，提高资源的缓存命中率利用率，降低服务器请求频率。
+2. **提升加载速度**：无需重复下载第三方库，尤其在弱网环境下体验更明显。
+3. **优化流量消耗**：用户重复访问时不消耗流量，适合移动端场景
+
+
+## loader
+
+Loader 是 Webpack 的核心特性之一
+它的主要作用是**将不同类型的文件（如 CSS、图片、TypeScript 等）转换为 Webpack 能够处理的模块**
+由于 Webpack 默认只能处理 JavaScript 文件，Loader 让 Webpack 可以支持多种格式的资源，从而构建出更复杂的前端应用。
+
+**原理**
+* Loader 本质上是一个函数，它接收源文件内容作为输入，并返回转换后的内容
+
+
+**常见loader**
+* css-loader
+* sass-loader
+```javascript
+module: {
+  rules: [
+    {
+      test: /\.css$/,
+      use: [
+        'style-loader',  // 将CSS注入DOM
+        'css-loader'     // 解析CSS中的@import和url()
+      ]
+    },
+    {
+      test: /\.scss$/,
+      use: [
+        'style-loader',
+        'css-loader',
+        'sass-loader'    // 先将Sass转换为CSS
+      ]
+    }
+  ]
+}
+```
+## plugins
+
+Webpack 插件是一个具有`apply`方法的 JavaScript 对象，它通过钩子机制（Hooks）介入到 Webpack 构建的整个生命周期中。插件可以监听特定事件，在合适的时机执行自定义逻辑，从而实现对构建过程的扩展和优化
+
+**webpack的钩子**
+* Webpack 的构建过程是一个由多个 "钩子" 组成的流水线
+* 插件plugins通过监听这些钩子来执行特定任务
+
+**例如**
+- **编译阶段**：在创建编译对象时触发
+- **模块解析阶段**：在解析模块时触发
+- **生成资源阶段**：在生成最终资源时触发
+- **输出阶段**：在文件写入磁盘前触发
+
+
+**插件的基本结构如下**
+```javascript
+class MyPlugin {
+  constructor(options) {
+    this.options = options;
+  }
+  
+  apply(compiler) {
+    // 监听编译开始事件
+    compiler.hooks.compile.tap('MyPlugin', (compilationParams) => {
+      console.log('编译开始...');
+    });
+    
+    // 监听资源生成完成事件
+    compiler.hooks.emit.tapAsync('MyPlugin', (compilation, callback) => {
+      // 可以在这里修改生成的资源
+      console.log('生成资源数量:', Object.keys(compilation.assets).length);
+      callback();
+    });
+  }
+}
+
+// 在webpack.config.js中使用
+module.exports = {
+  plugins: [
+    new MyPlugin({ /* 配置选项 */ })
+  ]
+}
+```
+
+**常见场景**
+* HTMLWebpackPlugin -- 生成 HTML 文件并自动注入打包后的资源
+
+### 插件与loader
+
+|**特性**|**Loader**|**Plugin**|
+|---|---|---|
+|**作用**|转换文件内容（如.css → .js）|执行更广泛的任务（如优化、注入变量）|
+|**工作时机**|处理模块时|整个构建周期的特定阶段|
+|**配置方式**|在 module.rules 中配置|在 plugins 数组中配置|
+|**示例**|babel-loader, css-loader|HtmlWebpackPlugin, TerserPlugin|
 

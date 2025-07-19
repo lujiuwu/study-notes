@@ -8,47 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b3ac76e11ff0754",
+            "id": "b9ee7f50da76ad30",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/寿司.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "寿司"
+            }
+          },
+          {
+            "id": "bd5a2a2eed6f08c5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "总结/三剑客.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "三剑客"
+            }
+          },
+          {
+            "id": "53777f648f186799",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础知识/计算机网络与安全.md",
+                "file": "总结/三剑客.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计算机网络与安全"
-            }
-          },
-          {
-            "id": "7d3e0907e46f4811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TS/TS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TS"
-            }
-          },
-          {
-            "id": "f51abfd4e1ed5423",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-05-13 15.35.49.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-13 15.35.49.excalidraw"
+              "title": "三剑客"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "同源",
+                "query": "webpack",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -125,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "402bd5f7c605d52b",
@@ -141,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/掘金2 -- JS基础知识.md",
+                "file": "算法/链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "掘金2 -- JS基础知识 的反向链接列表"
+              "title": "链表 的反向链接列表"
             }
           },
           {
@@ -175,7 +182,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -187,12 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "总结/三剑客.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "三剑客 的大纲"
             }
           },
           {
@@ -229,11 +239,12 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 721.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -252,47 +263,49 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d3e0907e46f4811",
+  "active": "53777f648f186799",
   "lastOpenFiles": [
-    "简历/简历分析.md",
-    "简历/陈岩-18883101158.pdf",
-    "计算机基础知识/计算机网络与安全.md",
-    "Excalidraw/Drawing 2025-05-13 15.35.49.excalidraw.md",
-    "计算机基础知识/进程状态.jpg",
-    "计算机基础知识/Web Worker.md",
-    "计算机基础知识/性能优化.md",
-    "浏览器/知识点总结.md",
-    "JS/掘金.md",
-    "计算机基础知识/performace.jpg",
-    "计算机基础知识/设计模式.md",
-    "计算机基础知识/浏览器原理.md",
-    "JS/沙箱 sandbox.md",
-    "VUE/vue.md",
-    "JS/其他.md",
-    "浏览器/浏览器API.md",
+    "总结/项目.md",
+    "总结/vue框架.md",
+    "总结/三剑客.md",
+    "总结/浏览器.md",
+    "总结/构建工具 & 脚手架.md",
+    "算法/寿司.md",
+    "工程化/webpack.md",
     "JS/JS高级程序设计 - coderwhy.md",
-    "JS/掘金2 -- JS基础知识.md",
-    "JS/手写Promise.md",
-    "VUE/nextTick.md",
+    "计算机基础知识/计算机网络与安全.md",
+    "面经/美团一面 base北京.md",
+    "计算机基础知识/浏览器原理.md",
     "浏览器/前端渲染技术.md",
-    "VUE/vue-router.md",
-    "VUE/vue css scoped.md",
-    "VUE/computed与watch.md",
-    "VUE/canvas.md",
-    "VUE/虚拟DOM.md",
-    "CSS/盒模型.md",
-    "CSS/层叠，优先级与继承.md",
+    "浏览器/浏览器API.md",
+    "git/git操作.md",
+    "HTML/html.md",
+    "算法/正则.md",
+    "算法/单调栈.md",
+    "算法/链表.md",
+    "算法/二叉树.md",
+    "算法/动态规划.md",
+    "JS/掘金.md",
+    "VUE/vue.md",
+    "CSS/css.md",
+    "axios/axios.md",
+    "面经/华顺信安.md",
+    "工程化/包管理工具.md",
+    "未命名",
+    "axios",
     "计算机基础知识/TCP三次握手.jpg",
+    "计算机基础知识/进程状态.jpg",
+    "未命名.canvas",
+    "package.json",
+    "package-lock.json",
+    "node_modules/husky/index.d.ts",
+    "node_modules/husky/package.json",
+    "node_modules/husky/index.js",
+    "node_modules/husky/bin.js",
+    "node_modules/husky/LICENSE",
+    "node_modules/husky/husky",
+    "计算机基础知识/performace.jpg",
     "计算机基础知识/四次挥手.png",
-    "工程化",
-    "计算机基础知识/四次挥手.png.crdownload",
-    "Node",
-    "未命名 1",
-    "TS",
-    "小程序",
-    "study-notes/面经",
-    "study-notes/浏览器",
-    "study-notes/简历/陈岩_前端开发实习生.docx",
     "study-notes/wallpapers/3.jpg",
     "study-notes/wallpapers/2.jpg",
     "study-notes/wallpapers/1.jpeg",
@@ -301,7 +314,6 @@
     "study-notes/VUE/images/smile.jpg",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "未命名 1.canvas",
-    "未命名.canvas"
+    "未命名 1.canvas"
   ]
 }

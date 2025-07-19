@@ -1,4 +1,4 @@
-## 什么是git
+ ## 什么是git
 > git是一个开源的分布式版本控制系统，用于高效处理任何或大或小的项目
 > 使用一个特殊的叫做**仓库**的数据库来记录文件的变化
 > **git是C语言开发的**
@@ -195,7 +195,7 @@ git log --oneline
 
 * **git init** -- 初始化仓库
 * **git clone** -- 拷贝一份远程仓库，即下载一个项目
-
+ 
 #### 修改与提交
 
 ##### git add -- 添加文件到暂存区
@@ -812,7 +812,7 @@ git submodule
 git checkout -b new_branch
 ```
 
-#### 查看分支
+####  查看分支
 
 * 查看所有本地分支
 ```git
@@ -948,12 +948,58 @@ git show tag_name
 ```
 
 
+## hucky
+
+> Husky 是一个 **Git 钩子（Git Hooks）工具**，用于在代码提交（commit）、推送（push）等 Git 操作前后执行自定义脚本，帮助团队自动化执行代码检查、测试、格式化等任务，确保代码质量和工程规范
+
+### 什么是钩子
+
+**git hooks -- Git钩子**
+* 是程序设计人员暴露出来的能够在程序执行过程中的特定时间点被执行的文件或者函数，该函数由使用者编写，能够让使用人员在某个步骤执行之前和执行之后执行额外的操作
+* 比如，git为commit提供了四个钩子：`pre-commit`、`commit-message`、`prepare-commit-msg` 和 `post-commit`
+
+`pre-commit` 在上面的步骤2将暂存区的内容保存为一个新的提交对象之前执行
+`prepare-commit-msg` 在打开提交信息编辑器之前触发
+`commit-message` 在创建提交信息之后执行
+`post-message` 在执行完 `commit` 操作，清空暂存区之后执行
+
+**存放位置**
+* `git hooks` 以 `shell` 文件的方式配置，将特定文件名的 `shell` 文件放到 `git` 指定的文件夹下
+* `git` 会在相应时刻默认读取并执行文件中的脚本代码
+* `git hooks` 的默认地址为**项目根目录/.git/hooks/**
+
+**原生限制**
+- 钩子脚本不会随代码提交，新克隆项目需手动配置。
+- 脚本需自行处理跨平台兼容性
+### husky原理及使用
+
+>`husky` 是一个帮助开发者更方便配置 `git hooks` 的第三方库
+>直观上看，其将 `git hooks` 的配置位置从**项目根目录/.git/hooks/** 转移到了**项目根目录/.husky/**
 
 
+**初始化阶段**
+- `husky install`修改`.git/config`，指定`core.hooksPath`为`.husky`目录。
+- 创建`.husky`目录，包含用户定义的钩子脚本（如`pre-commit`）
+
+**执行阶段**
+1. **Git 触发钩子**：  
+    执行`git commit`时，Git 会检查`.husky/pre-commit`脚本是否存在并可执行。
+    
+2. **Husky 代理脚本执行**：  
+    `.husky/pre-commit`脚本中通常包含用户配置的命令（如`npm run lint`）：
+3. **命令执行与结果处理**：
+    
+    - **成功**：如果`npm run lint`返回状态码`0`，Git 继续执行提交操作。
+    - **失败**：如果返回非零状态码（如 ESLint 检查失败），Git 终止提交并显示错误信息。
+
+**优势**
+- **简化钩子管理**：通过配置文件（如`package.json`或`.husky`文件夹）定义钩子，无需编写 shell 脚本。
+- **跨平台兼容**：自动处理不同操作系统（Windows、macOS、Linux）的脚本执行差异。
+- **集成生态工具**：无缝集成 ESLint、Prettier、Jest 等工具，实现自动化检查。
 
 
-
-
-
-
+**husky怎样对钩子拦截**
+1. **Git 配置**：利用`core.hooksPath`将 Git 钩子目录指向 Husky 管理的目录。
+2. **脚本执行**：在钩子脚本中执行用户定义的命令（如 ESLint 检查）。
+3. **状态码控制**：根据命令执行结果（状态码）决定是否允许 Git 操作继续。
 
