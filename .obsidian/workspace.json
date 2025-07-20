@@ -76,18 +76,6 @@
               "icon": "lucide-file",
               "title": "5-伍之章-计网"
             }
-          },
-          {
-            "id": "3d55f1c9106634c3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "计算机基础知识/进程状态.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "进程状态"
-            }
           }
         ],
         "currentTab": 4
@@ -167,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "402bd5f7c605d52b",
