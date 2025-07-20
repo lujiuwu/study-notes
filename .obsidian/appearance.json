@@ -3,10 +3,11 @@
   "theme": "obsidian",
   "cssTheme": "Obsidian Nord",
   "enabledCssSnippets": [],
-  "interfaceFontFamily": "华文新魏,华文楷体,Showcard Gothic",
+  "interfaceFontFamily": "微软雅黑,Showcard Gothic",
   "monospaceFontFamily": "Cascadia Code",
   "textFontFamily": "微软雅黑",
   "baseFontSize": 18,
   "translucency": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSizeAction": true
 }
