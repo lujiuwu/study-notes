@@ -76,8 +76,23 @@
               "icon": "lucide-file",
               "title": "5-伍之章-计网"
             }
+          },
+          {
+            "id": "670d00288a3b41b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "究级の总结/1-壹之章-三剑客.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-壹之章-三剑客"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302.5
   },
   "right": {
     "id": "402bd5f7c605d52b",
@@ -285,20 +300,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9ee7f50da76ad30",
+  "active": "670d00288a3b41b5",
   "lastOpenFiles": [
-    "究级の总结/4-肆之章-浏览器.md",
     "究级の总结/2-贰之章-vue框架.md",
-    "究级の总结/1-壹之章-三剑客.md",
-    "究级の总结/6-陆之章-算法&手撕.md",
-    "操作系统/操作系统.md",
+    "究级の总结/3-叁之章-工程化.md",
     "究级の总结/5-伍之章-计网.md",
+    "究级の总结/4-肆之章-浏览器.md",
+    "究级の总结/8-捌之章-项目.md",
+    "究级の总结/6-陆之章-算法&手撕.md",
+    "究级の总结/7-柒之章-git.md",
+    "究级の总结/1-壹之章-三剑客.md",
+    "VUE/vue.md",
+    "VUE/nextTick.md",
+    "VUE/computed与watch.md",
+    "VUE/canvas.md",
+    "VUE/虚拟DOM.md",
+    "VUE/路由 -- vue-router.md",
+    "操作系统/操作系统.md",
     "工程化/性能优化.md",
     "JS/其他.md",
-    "究级の总结/3-叁之章-工程化.md",
     "计算机基础知识/进程状态.jpg",
-    "究级の总结/7-柒之章-git.md",
-    "究级の总结/8-捌之章-项目.md",
     "计算机基础知识/设计模式.md",
     "计算机基础知识/浏览器原理.md",
     "浏览器/前端渲染技术.md",
@@ -308,13 +329,8 @@
     "工程化/webpack.md",
     "工程化/Vite.md",
     "工程化/脚手架.md",
-    "工程化/包管理工具.md",
-    "总结/axios.md",
     "JS/noteImg/Pasted image 20250318134932.png",
     "JS/noteImg/Pasted image 20250226163557.png",
-    "JS/掘金.md",
-    "JS/JS高级程序设计 - coderwhy.md",
-    "JS/手写Promise.md",
     "未命名",
     "axios",
     "计算机基础知识/TCP三次握手.jpg",
