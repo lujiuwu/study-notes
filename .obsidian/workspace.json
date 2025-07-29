@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "34dc922cd476ec0f",
+        "id": "8a861e0d81cbbc7d",
         "type": "tabs",
         "children": [
           {
@@ -24,63 +24,7 @@
             }
           },
           {
-            "id": "b243a28993da221e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "究级の总结/4-肆之章-浏览器.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4-肆之章-浏览器"
-            }
-          },
-          {
-            "id": "ff83946c8929fe54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "究级の总结/2-贰之章-vue框架.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2-贰之章-vue框架"
-            }
-          },
-          {
-            "id": "bb19c49b48ec014b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "究级の总结/5-伍之章-计网.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5-伍之章-计网"
-            }
-          },
-          {
-            "id": "670d00288a3b41b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面经/百度一面.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "百度一面"
-            }
-          },
-          {
-            "id": "81c78fef31cf1e64",
+            "id": "671457e351bdde4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "promise",
+                "query": "vh",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -171,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "402bd5f7c605d52b",
@@ -303,19 +246,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81c78fef31cf1e64",
+  "active": "671457e351bdde4d",
   "lastOpenFiles": [
-    "究级の总结/2-贰之章-vue框架.md",
+    "CSS/值和单位.md",
+    "究级の总结/1-壹之章-三剑客.md",
     "究级の总结/6-陆之章-算法&手撕.md",
     "究级の总结/4-肆之章-浏览器.md",
+    "Excalidraw/Drawing 2025-06-12 17.27.43.excalidraw.md",
     "究级の总结/5-伍之章-计网.md",
+    "究级の总结/3-叁之章-工程化.md",
+    "面经/华顺信安.md",
+    "面经/美团一面 base北京.md",
+    "究级の总结/7-柒之章-git.md",
+    "究级の总结/8-捌之章-项目.md",
+    "究级の总结/2-贰之章-vue框架.md",
     "面经/百度一面.md",
     "面经/腾讯云智.md",
     "面经/小红书一面.md",
-    "究级の总结/3-叁之章-工程化.md",
-    "究级の总结/8-捌之章-项目.md",
-    "究级の总结/7-柒之章-git.md",
-    "究级の总结/1-壹之章-三剑客.md",
     "TS/TS.md",
     "VUE/vue.md",
     "VUE/nextTick.md",
@@ -328,10 +275,6 @@
     "JS/其他.md",
     "计算机基础知识/进程状态.jpg",
     "计算机基础知识/设计模式.md",
-    "计算机基础知识/浏览器原理.md",
-    "浏览器/前端渲染技术.md",
-    "浏览器/浏览器API.md",
-    "工程化/Babel.md",
     "JS/noteImg/Pasted image 20250318134932.png",
     "JS/noteImg/Pasted image 20250226163557.png",
     "未命名",
