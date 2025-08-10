@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础知识/性能优化.md",
+                "file": "究级の总结/5-伍之章-计网.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "性能优化"
+              "title": "5-伍之章-计网"
             }
           }
         ],
@@ -126,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "状态码",
+                "query": "nextTick",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机基础知识/性能优化.md",
+                "file": "CSS/层叠，优先级与继承.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "性能优化 的大纲"
+              "title": "层叠，优先级与继承 的大纲"
             }
           },
           {
@@ -304,33 +304,33 @@
   },
   "active": "2f9cbc0500f9c610",
   "lastOpenFiles": [
+    "究级の总结/4-肆之章-浏览器.md",
+    "究级の总结/5-伍之章-计网.md",
+    "究级の总结/1-壹之章-三剑客.md",
+    "计算机基础知识/性能优化.md",
     "计算机基础知识/设计模式.md",
+    "计算机基础知识/浏览器原理.md",
+    "工程化/性能优化.md",
+    "操作系统/操作系统.md",
+    "CSS/层叠，优先级与继承.md",
+    "VUE/vue.md",
+    "VUE/nextTick.md",
+    "面经/百度一面.md",
+    "究级の总结/2-贰之章-vue框架.md",
+    "计算机基础知识/Web Worker.md",
+    "工程化/Babel.md",
+    "工程化/packge.json.md",
+    "计算机基础知识/进程状态.jpg",
     "究级の总结/6-陆之章-算法&手撕.md",
     "JS/掘金.md",
     "面经/美团一面 base北京.md",
-    "究级の总结/5-伍之章-计网.md",
-    "计算机基础知识/浏览器原理.md",
-    "究级の总结/4-肆之章-浏览器.md",
     "究级の总结/3-叁之章-工程化.md",
-    "究级の总结/2-贰之章-vue框架.md",
-    "究级の总结/1-壹之章-三剑客.md",
     "Excalidraw/Drawing 2025-04-04 19.24.52.excalidraw.md",
     "算法/单调栈.md",
-    "计算机基础知识/Web Worker.md",
-    "计算机基础知识/性能优化.md",
     "究级の总结/8-捌之章-项目.md",
     "究级の总结/7-柒之章-git.md",
-    "计算机基础知识/进程状态.jpg",
-    "工程化/性能优化.md",
-    "工程化/Babel.md",
-    "操作系统/操作系统.md",
     "JS/JS高级程序设计 - coderwhy.md",
     "CSS/盒模型.md",
-    "JS/红宝书/第八章 对象，类和面向对象编程.md",
-    "面经/小红书一面.md",
-    "CSS/css.md",
-    "面经/百度一面.md",
-    "CSS/值和单位.md",
     "JS/noteImg/Pasted image 20250318134932.png",
     "JS/noteImg/Pasted image 20250226163557.png",
     "未命名",
