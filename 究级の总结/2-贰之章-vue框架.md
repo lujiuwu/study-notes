@@ -160,3 +160,26 @@ class Watcher{
     
 - 优化复杂应用的渲染性能
 
+#### hooks
+
+**本质**
+* 一组可复用的函数，它们可以“钩入”Vue组件的生命周期，让我们能够在组件的不同生命周期阶段执行特定的逻辑
+
+#### mitt包
+
+* 是一个小型的JS事件发布订阅库
+* API简单易于学习
+
+**使用**
+```js
+// 创建事件总线
+import mitt from 'mitt'
+const events = mitt()
+// 监听事件
+events.on('start',start)
+events.on('end',end)
+// 触发事件
+events.emit('start')
+events.emit('end')
+```
+
