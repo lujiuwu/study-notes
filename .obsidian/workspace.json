@@ -24,63 +24,33 @@
             }
           },
           {
-            "id": "671457e351bdde4d",
+            "id": "8996e04818401c25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "究级の总结/1-壹之章-三剑客.md",
+                "file": "实习经历/总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-壹之章-三剑客"
+              "title": "总结"
             }
           },
           {
-            "id": "b0620b96b77f9ee3",
+            "id": "9fcae1a56e71e7b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "操作系统/操作系统.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.10.6"
               },
-              "icon": "lucide-file",
-              "title": "操作系统"
-            }
-          },
-          {
-            "id": "8929df1b4e0917cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/掘金.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "掘金"
-            }
-          },
-          {
-            "id": "e119faa266c58b8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/JS高级程序设计 - coderwhy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JS高级程序设计 - coderwhy"
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,8 +123,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -290,23 +259,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8929df1b4e0917cb",
+  "active": "9fcae1a56e71e7b9",
   "lastOpenFiles": [
+    "究级の总结/6-陆之章-算法&手撕.md",
+    "实习经历/总结.md",
+    "操作系统/操作系统.md",
+    "实习经历",
+    "JS/掘金.md",
     "JS/JS高级程序设计 - coderwhy.md",
     "JS/掘金2 -- JS基础知识.md",
     "计算机基础知识/浏览器原理.md",
-    "究级の总结/6-陆之章-算法&手撕.md",
     "究级の总结/1-壹之章-三剑客.md",
     "究级の总结/5-伍之章-计网.md",
     "究级の总结/4-肆之章-浏览器.md",
     "究级の总结/3-叁之章-工程化.md",
     "究级の总结/7-柒之章-git.md",
     "究级の总结/8-捌之章-项目.md",
-    "JS/掘金.md",
     "Node/node.md",
     "JS/红宝书/第一章 什么是JavaScript.md",
     "究级の总结/2-贰之章-vue框架.md",
-    "操作系统/操作系统.md",
     "VUE/nextTick.md",
     "究级の总结/9-后端.md",
     "JS/红宝书/第八章 对象，类和面向对象编程.md",
@@ -317,11 +288,9 @@
     "VUE/vue.md",
     "面经/百度一面.md",
     "计算机基础知识/Web Worker.md",
-    "工程化/Babel.md",
     "计算机基础知识/进程状态.jpg",
     "JS/noteImg/Pasted image 20250318134932.png",
     "JS/noteImg/Pasted image 20250226163557.png",
-    "未命名",
     "axios",
     "计算机基础知识/TCP三次握手.jpg",
     "未命名.canvas",
